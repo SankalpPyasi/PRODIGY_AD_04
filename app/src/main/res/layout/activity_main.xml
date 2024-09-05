@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/grid"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alignmentMode="alignMargins"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:padding="16dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button00"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button01"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button02"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button10"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button11"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button12"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button20"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button21"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button22"
+            style="@style/TicTacToeButton" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
